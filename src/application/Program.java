@@ -37,11 +37,11 @@ public class Program {
 		
 		//Calcular o total de numero de alunhos do professor 
 		
-		Set<Integer> totalDeAlunhos = new HashSet<>(CursoA);
+		Set<Integer> totalDeAlunos = new HashSet<>(CursoA);
 				totalDeAlunhos.addAll(CursoB);
 				totalDeAlunhos.addAll(CursoC);
 		
-		System.out.println("Total de alunhos: " + totalDeAlunhos.size());
+		System.out.println("Total de alunhos: " + totalDeAlunos.size());
 
 		sc.close();
 
